@@ -210,6 +210,16 @@ DATASETS <- list(
                          case_modifier = function(cases) {
                                   cases <- cases[!is.na(level_1_region)]
                                   return(cases) }),
+  "vietnam" = Region$new(name = "vietnam",
+                          publication_metadata = PublicationMetadata$new(
+                            title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for vietnam Based on Test Results",
+                            description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Viet Nam. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
+                            breakdown = "region",
+                            country = "Viet Nam"),
+                          stable = FALSE,
+                         region_scale = "Region",
+                         covid_regional_data_identifier = "Vietnam"
+                         ),
   "test" = Region$new(name = "test",
                       covid_regional_data_identifier = "belgium",
                       cases_subregion_source = "region",
