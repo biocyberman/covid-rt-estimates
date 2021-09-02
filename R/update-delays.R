@@ -18,16 +18,16 @@ if (!interactive()) {
   options(future.fork.enable = TRUE)
 }
 
-plan(multiprocess)
+plan(multicore)
 
 # Fit delay from onset to admission ---------------------------------------
-report_delay <- covidregionaldata::get_linelist(report_delay_only = TRUE)
-report_delay <- data.table::as.data.table(report_delay)[!(country %in% c("Mexico", "Phillipines"))]
+## report_delay <- covidregionaldata:::get_linelist(report_delay_only = TRUE)
+## report_delay <- data.table::as.data.table(report_delay)[!(country %in% c("Mexico", "Phillipines"))]
 
-onset_to_admission_delay <- EpiNow2::bootstrapped_dist_fit(report_delay$days_onset_to_report, bootstraps = 100, 
-                                                           bootstrap_samples = 250, max_value = 30)
+## onset_to_admission_delay <- EpiNow2::bootstrapped_dist_fit(report_delay$days_onset_to_report, bootstraps = 100, 
+##                                                            bootstrap_samples = 250, max_value = 30)
 
-saveRDS(onset_to_admission_delay, here::here("data", "onset_to_admission_delay.rds"))
+## saveRDS(onset_to_admission_delay, here::here("data", "onset_to_admission_delay.rds"))
 
 # Fit delay from onset to deaths ------------------------------------------
 # Not used as of the 28th of July the linelist only contains 6 complete records.

@@ -45,7 +45,7 @@ Suggests:
     testthat
 Remotes:
   joeHickson/futile.logger,
-  epiforecasts/EpiNow2@v1.3.3,
+  url::https://github.com/epiforecasts/EpiNow2/archive/refs/tags/1.3.3.tar.gz,
   epiforecasts/covid19.nhs.data,
   iqss/dataverse-client-r
 Roxygen: list(markdown = TRUE)
