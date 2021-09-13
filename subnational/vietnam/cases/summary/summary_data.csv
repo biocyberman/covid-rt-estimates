@@ -1,0 +1,105 @@
+region,estimate,median,mean,sd,lower_90,lower_50,lower_20,upper_20,upper_50,upper_90,metric,Expected change in daily cases,prob_control
+Hochiminh,7161 (1396 -- 46048),7161,15830,56106,1396,3755,5629,9253,14206,46048,New confirmed cases by infection date,Stable,0.5
+Binhduong,3800 (516 -- 22460),3800,6898,12296,516,1730,2835,4894,7710,22460,New confirmed cases by infection date,Likely decreasing,0.66
+Dongnai,781 (145 -- 4390),781,1468,3404,145,408,621,1003,1576,4390,New confirmed cases by infection date,Stable,0.57
+Kiengiang,270 (50 -- 1125),270,396,482,50,153,220,322,457,1125,New confirmed cases by infection date,Likely increasing,0.26
+Longan,258 (34 -- 1741),258,643,4132,34,119,197,338,552,1741,New confirmed cases by infection date,Likely decreasing,0.74
+Tayninh,125 (16 -- 1228),125,352,1007,16,54,90,176,301,1228,New confirmed cases by infection date,Stable,0.54
+Tiengiang,107 (8 -- 704),107,202,313,8,44,76,146,231,704,New confirmed cases by infection date,Likely decreasing,0.81
+Binhphuoc,63 (5 -- 483),63,161,821,5,30,50,83,133,483,New confirmed cases by infection date,Likely increasing,0.33
+Angiang,51 (7 -- 232),51,81,206,7,25,39,65,96,232,New confirmed cases by infection date,Likely decreasing,0.66
+Quangngai,37 (12 -- 146),37,56,90,12,25,32,44,58,146,New confirmed cases by infection date,Likely increasing,0.2
+Cantho,27 (2 -- 313),27,91,318,2,10,19,40,77,313,New confirmed cases by infection date,Likely decreasing,0.66
+Dongthap,25 (1 -- 327),25,86,372,1,9,17,38,68,327,New confirmed cases by infection date,Likely decreasing,0.81
+Daknong,21 (3 -- 287),21,101,990,3,10,16,29,50,287,New confirmed cases by infection date,Likely increasing,0.31
+Quangbinh,19 (0 -- 535),19,129,465,0,3,9,35,97,535,New confirmed cases by infection date,Likely decreasing,0.73
+Baclieu,18 (6 -- 49),18,21,18,6,12,15,20,25,49,New confirmed cases by infection date,Likely increasing,0.15
+Binhdinh,18 (3 -- 101),18,33,66,3,10,14,23,34,101,New confirmed cases by infection date,Stable,0.42
+Bariavungtau,14 (0 -- 199),14,61,299,0,4,9,21,40,199,New confirmed cases by infection date,Likely decreasing,0.73
+Khanhhoa,11 (1 -- 96),11,27,58,1,4,8,16,28,96,New confirmed cases by infection date,Likely decreasing,0.88
+Camau,9 (0 -- 33),9,13,35,0,4,6,11,16,33,New confirmed cases by infection date,Stable,0.43
+Quangnam,8 (1 -- 58),8,18,56,1,3,6,10,17,58,New confirmed cases by infection date,Stable,0.58
+Thanhhoa,8 (0 -- 49),8,16,35,0,3,6,11,18,49,New confirmed cases by infection date,Likely decreasing,0.63
+Hue,5 (0 -- 61),5,16,51,0,1,3,7,13,61,New confirmed cases by infection date,Likely decreasing,0.79
+Phuyen,5 (0 -- 141),5,40,317,0,1,3,9,19,141,New confirmed cases by infection date,Likely decreasing,0.71
+Danang,4 (0 -- 67),4,20,132,0,1,2,6,13,67,New confirmed cases by infection date,Likely decreasing,0.93
+Hungyen,4 (0 -- 109),4,34,243,0,1,3,6,14,109,New confirmed cases by infection date,Likely increasing,0.34
+Binhthuan,3 (0 -- 57),3,15,56,0,0,2,5,10,57,New confirmed cases by infection date,Likely decreasing,0.9
+Daklak,2 (0 -- 38),2,10,35,0,0,1,3,7,38,New confirmed cases by infection date,Likely decreasing,0.9
+Hanoi,2 (0 -- 56),2,14,68,0,0,1,4,9,56,New confirmed cases by infection date,Likely decreasing,0.9
+Nghean,2 (0 -- 37),2,9,32,0,0,1,3,7,37,New confirmed cases by infection date,Decreasing,0.95
+Baclieu,1.2 (0.85 -- 1.5),1.2,1.2,0.22,0.85,1.1,1.1,1.2,1.3,1.5,Effective reproduction no.,Likely increasing,0.15
+Hungyen,1.2 (0.41 -- 3.1),1.2,1.4,0.94,0.41,0.86,1.1,1.4,1.8,3.1,Effective reproduction no.,Likely increasing,0.34
+Kiengiang,1.2 (0.67 -- 1.7),1.2,1.2,0.34,0.67,0.99,1.1,1.2,1.3,1.7,Effective reproduction no.,Likely increasing,0.26
+Binhdinh,1.1 (0.55 -- 2.1),1.1,1.2,0.5,0.55,0.85,0.98,1.2,1.3,2.1,Effective reproduction no.,Stable,0.42
+Binhphuoc,1.1 (0.36 -- 2),1.1,1.2,0.5,0.36,0.88,1.1,1.2,1.4,2,Effective reproduction no.,Likely increasing,0.33
+Camau,1.1 (0.42 -- 1.4),1.1,1,0.33,0.42,0.84,0.98,1.1,1.2,1.4,Effective reproduction no.,Stable,0.43
+Daknong,1.1 (0.53 -- 2.5),1.1,1.3,0.7,0.53,0.95,1.1,1.2,1.5,2.5,Effective reproduction no.,Likely increasing,0.31
+Quangngai,1.1 (0.8 -- 1.5),1.1,1.1,0.24,0.8,1,1.1,1.1,1.2,1.5,Effective reproduction no.,Likely increasing,0.2
+Bentre,1 (0 -- 15),1,4,12,0,0,1,2,4,15,New confirmed cases by infection date,Likely decreasing,0.91
+Hochiminh,1 (0.59 -- 1.6),1,1,0.34,0.59,0.85,0.94,1.1,1.2,1.6,Effective reproduction no.,Stable,0.5
+Soctrang,1 (0 -- 27),1,8,39,0,0,0,2,5,27,New confirmed cases by infection date,Likely decreasing,0.82
+Travinh,1 (0 -- 17),1,4,14,0,0,1,2,5,17,New confirmed cases by infection date,Likely decreasing,0.91
+Dongnai,0.96 (0.52 -- 1.6),0.96,1,0.35,0.52,0.78,0.89,1,1.2,1.6,Effective reproduction no.,Stable,0.57
+Tayninh,0.96 (0.44 -- 1.8),0.96,1,0.48,0.44,0.73,0.88,1.1,1.3,1.8,Effective reproduction no.,Stable,0.54
+Quangnam,0.94 (0.52 -- 1.7),0.94,1,0.42,0.52,0.75,0.87,1,1.2,1.7,Effective reproduction no.,Stable,0.58
+Thanhhoa,0.91 (0.42 -- 1.4),0.91,0.91,0.31,0.42,0.71,0.83,0.98,1.1,1.4,Effective reproduction no.,Likely decreasing,0.63
+Angiang,0.9 (0.47 -- 1.3),0.9,0.9,0.28,0.47,0.73,0.84,0.96,1.1,1.3,Effective reproduction no.,Likely decreasing,0.66
+Binhduong,0.9 (0.48 -- 1.4),0.9,0.91,0.28,0.48,0.74,0.84,0.96,1.1,1.4,Effective reproduction no.,Likely decreasing,0.66
+Hanam,0.89 (0.15 -- 1.4),0.89,0.83,0.41,0.15,0.59,0.79,0.96,1,1.4,Effective reproduction no.,Likely decreasing,0.68
+Longan,0.82 (0.42 -- 1.4),0.82,0.86,0.34,0.42,0.66,0.76,0.89,1,1.4,Effective reproduction no.,Likely decreasing,0.74
+Cantho,0.79 (0.23 -- 1.9),0.79,0.9,0.57,0.23,0.52,0.68,0.91,1.1,1.9,Effective reproduction no.,Likely decreasing,0.66
+Tiengiang,0.79 (0.36 -- 1.2),0.79,0.79,0.26,0.36,0.62,0.73,0.86,0.95,1.2,Effective reproduction no.,Likely decreasing,0.81
+Bariavungtau,0.74 (0.2 -- 1.7),0.74,0.82,0.5,0.2,0.5,0.64,0.84,1,1.7,Effective reproduction no.,Likely decreasing,0.73
+Haiphong,0.69 (0.015 -- 1.2),0.69,0.67,0.53,0.015,0.3,0.54,0.82,0.97,1.2,Effective reproduction no.,Likely decreasing,0.79
+Ninhthuan,0.68 (0.13 -- 2.3),0.68,0.88,0.78,0.13,0.4,0.57,0.82,1.1,2.3,Effective reproduction no.,Likely decreasing,0.71
+Phuyen,0.68 (0.13 -- 2.2),0.68,0.86,0.74,0.13,0.38,0.56,0.81,1.1,2.2,Effective reproduction no.,Likely decreasing,0.71
+Hue,0.67 (0.18 -- 1.6),0.67,0.75,0.46,0.18,0.45,0.59,0.75,0.94,1.6,Effective reproduction no.,Likely decreasing,0.79
+Dongthap,0.65 (0.17 -- 1.4),0.65,0.71,0.4,0.17,0.44,0.57,0.74,0.9,1.4,Effective reproduction no.,Likely decreasing,0.81
+Gialai,0.65 (0.25 -- 1.5),0.65,0.74,0.49,0.25,0.47,0.58,0.74,0.9,1.5,Effective reproduction no.,Likely decreasing,0.82
+Bentre,0.64 (0.15 -- 1.1),0.64,0.65,0.33,0.15,0.44,0.56,0.7,0.81,1.1,Effective reproduction no.,Likely decreasing,0.91
+Khanhhoa,0.64 (0.26 -- 1.2),0.64,0.68,0.31,0.26,0.47,0.58,0.71,0.83,1.2,Effective reproduction no.,Likely decreasing,0.88
+Soctrang,0.61 (0.15 -- 1.5),0.61,0.69,0.46,0.15,0.4,0.53,0.7,0.88,1.5,Effective reproduction no.,Likely decreasing,0.82
+Bacninh,0.6 (0.022 -- 1.8),0.6,0.71,0.76,0.022,0.25,0.46,0.73,0.92,1.8,Effective reproduction no.,Likely decreasing,0.8
+Travinh,0.6 (0.23 -- 1.1),0.6,0.63,0.28,0.23,0.45,0.54,0.66,0.78,1.1,Effective reproduction no.,Likely decreasing,0.91
+Namdinh,0.59 (0.079 -- 1.2),0.59,0.62,0.41,0.079,0.34,0.49,0.69,0.85,1.2,Effective reproduction no.,Likely decreasing,0.86
+Langson,0.55 (0.13 -- 1.1),0.55,0.58,0.32,0.13,0.36,0.48,0.63,0.77,1.1,Effective reproduction no.,Likely decreasing,0.91
+Lamdong,0.54 (0.091 -- 1.7),0.54,0.67,0.59,0.091,0.32,0.45,0.64,0.84,1.7,Effective reproduction no.,Likely decreasing,0.83
+Quangbinh,0.54 (0.036 -- 1.8),0.54,0.71,0.67,0.036,0.22,0.4,0.71,1,1.8,Effective reproduction no.,Likely decreasing,0.73
+Sonla,0.49 (0.052 -- 1.5),0.49,0.6,0.58,0.052,0.25,0.39,0.6,0.79,1.5,Effective reproduction no.,Likely decreasing,0.86
+Danang,0.48 (0.075 -- 1.1),0.48,0.53,0.4,0.075,0.28,0.41,0.55,0.69,1.1,Effective reproduction no.,Likely decreasing,0.93
+Daklak,0.46 (0.053 -- 1.3),0.46,0.52,0.4,0.053,0.23,0.37,0.55,0.71,1.3,Effective reproduction no.,Likely decreasing,0.9
+Nghean,0.43 (0.091 -- 1),0.43,0.48,0.3,0.091,0.26,0.36,0.5,0.64,1,Effective reproduction no.,Decreasing,0.95
+Quangtri,0.4 (0.052 -- 1.1),0.4,0.47,0.36,0.052,0.21,0.32,0.48,0.63,1.1,Effective reproduction no.,Likely decreasing,0.93
+Thaibinh,0.4 (0.0063 -- 1.9),0.4,0.6,0.85,0.0063,0.13,0.28,0.52,0.75,1.9,Effective reproduction no.,Likely decreasing,0.85
+Thuathienhue,0.4 (0.082 -- 0.95),0.4,0.44,0.29,0.082,0.24,0.33,0.46,0.58,0.95,Effective reproduction no.,Decreasing,0.96
+Binhthuan,0.38 (0.048 -- 1.3),0.38,0.48,0.44,0.048,0.19,0.3,0.46,0.64,1.3,Effective reproduction no.,Likely decreasing,0.9
+Hanoi,0.38 (0.051 -- 1.4),0.38,0.49,0.46,0.051,0.19,0.3,0.47,0.64,1.4,Effective reproduction no.,Likely decreasing,0.9
+Ninhbinh,0.38 (0.037 -- 1),0.38,0.45,0.39,0.037,0.19,0.3,0.47,0.63,1,Effective reproduction no.,Likely decreasing,0.94
+Vinhlong,0.34 (0.038 -- 1.1),0.34,0.42,0.37,0.038,0.19,0.27,0.41,0.55,1.1,Effective reproduction no.,Likely decreasing,0.94
+Haugiang,0.23 (0.011 -- 0.88),0.23,0.32,0.41,0.011,0.09,0.17,0.29,0.43,0.88,Effective reproduction no.,Decreasing,0.96
+Hatinh,0.18 (0.012 -- 0.9),0.18,0.3,0.43,0.012,0.072,0.13,0.24,0.36,0.9,Effective reproduction no.,Decreasing,0.96
+Haiduong,0.14 (0.00071 -- 1.7),0.14,0.41,0.79,0.00071,0.026,0.081,0.22,0.44,1.7,Effective reproduction no.,Likely decreasing,0.9
+Laocai,0.087 (0.00067 -- 1.1),0.087,0.28,0.65,0.00067,0.019,0.054,0.14,0.28,1.1,Effective reproduction no.,Likely decreasing,0.94
+Bacgiang,0.084 (9.4e-05 -- 1.4),0.084,0.33,0.77,9.4e-05,0.01,0.037,0.16,0.34,1.4,Effective reproduction no.,Likely decreasing,0.93
+Vinhphuc,0.015 (3.6e-06 -- 1.8),0.015,0.33,1,3.6e-06,0.00098,0.0054,0.037,0.15,1.8,Effective reproduction no.,Likely decreasing,0.92
+Bacgiang,0 (0 -- 0),0,0,0,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.93
+Bacninh,0 (0 -- 9),0,6,109,0,0,0,0,1,9,New confirmed cases by infection date,Likely decreasing,0.8
+Gialai,0 (0 -- 9),0,3,28,0,0,0,1,1,9,New confirmed cases by infection date,Likely decreasing,0.82
+Haiduong,0 (0 -- 0),0,0,1,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.9
+Haiphong,0 (0 -- 1),0,0,1,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.79
+Hanam,0 (0 -- 1),0,0,1,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.68
+Hatinh,0 (0 -- 0),0,0,1,0,0,0,0,0,0,New confirmed cases by infection date,Decreasing,0.96
+Haugiang,0 (0 -- 0),0,0,1,0,0,0,0,0,0,New confirmed cases by infection date,Decreasing,0.96
+Lamdong,0 (0 -- 3),0,1,11,0,0,0,0,0,3,New confirmed cases by infection date,Likely decreasing,0.83
+Langson,0 (0 -- 2),0,0,1,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.91
+Laocai,0 (0 -- 0),0,0,0,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.94
+Namdinh,0 (0 -- 2),0,0,4,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.86
+Ninhbinh,0 (0 -- 1),0,0,3,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.94
+Ninhthuan,0 (0 -- 15),0,4,29,0,0,0,0,1,15,New confirmed cases by infection date,Likely decreasing,0.71
+Quangtri,0 (0 -- 1),0,0,1,0,0,0,0,0,1,New confirmed cases by infection date,Likely decreasing,0.93
+Sonla,0 (0 -- 10),0,3,45,0,0,0,0,1,10,New confirmed cases by infection date,Likely decreasing,0.86
+Thaibinh,0 (0 -- 0),0,0,2,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.85
+Thuathienhue,0 (0 -- 5),0,1,4,0,0,0,0,1,5,New confirmed cases by infection date,Decreasing,0.96
+Vinhlong,0 (0 -- 2),0,0,4,0,0,0,0,0,2,New confirmed cases by infection date,Likely decreasing,0.94
+Vinhphuc,0 (0 -- 0),0,0,0,0,0,0,0,0,0,New confirmed cases by infection date,Likely decreasing,0.92
