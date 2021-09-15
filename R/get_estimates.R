@@ -43,7 +43,7 @@ get_estimates <- function(local_dir, include = "csv", target_dir = "results",
   ic <- "exactName"
   add_inc <- function(ic, inc) {
     if (inc %in% include) {
-      ic <- paste0("*.", inc, ";", ic)
+      ic <- paste0("*ietnam*.", inc, ";", ic)
     } 
     return(ic)
   }
