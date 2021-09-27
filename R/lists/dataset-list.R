@@ -212,7 +212,7 @@ DATASETS <- list(
                                   return(cases) }),
   "vietnam" = Region$new(name = "vietnam",
                           publication_metadata = PublicationMetadata$new(
-                            title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for vietnam Based on Test Results",
+                            title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Viet Nam Based on Test Results",
                             description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Viet Nam. These results are impacted by changes in testing effort, increases and decreases in testing effort will increase and decrease reproduction number estimates respectively.",
                             breakdown = "region",
                             country = "Viet Nam"),
@@ -220,6 +220,20 @@ DATASETS <- list(
                          region_scale = "Region",
                          covid_regional_data_identifier = "Vietnam"
                          ),
+  "vietnam-deaths" = Region$new(name = "vietnam-deaths",
+                                       publication_metadata = PublicationMetadata$new(
+                                         title = "National and Subnational Estimates of the Covid 19 Reproduction Number (R) for Viet Nam Based on Deaths",
+                                         description = "Identifying changes in the reproduction number, rate of spread, and doubling time during the course of the COVID-19 outbreak whilst accounting for potential biases due to delays in case reporting both nationally and subnationally in Viet Nam.",
+                                         breakdown = "region",
+                                         country = "Viet Nam"),
+                                       covid_regional_data_identifier = "Vietnam",
+                                       stable = FALSE,
+                                       folder_name = "vietnam",
+                                       dataset_folder_name = "deaths",
+                                       case_modifier = function(deaths) {
+                                         deaths <- deaths[, cases_new := deaths_new]
+                                         return(deaths) },
+                                       truncation = 4),
   "test" = Region$new(name = "test",
                       covid_regional_data_identifier = "belgium",
                       cases_subregion_source = "region",
